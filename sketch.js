@@ -24,7 +24,7 @@ function setup() {
   oldy = 0;
   STEP = 10;
   x = -width/2 + STEP/2;
-  y = -height/2;
+  y = -height/2 + STEP/2;
 }
 
 function is_in_heart(x, y) {
